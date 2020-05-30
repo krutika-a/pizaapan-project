@@ -9595,7 +9595,7 @@ body a, button, .btn {
 button,
 input,
 select, label, li {
-  -webkit-appearance: none;
+  
   outline: none;
   font-family: 'Spartan', sans-serif; }
 
@@ -12246,7 +12246,7 @@ form.signin-form {
   display: block;
   font-weight: 600; }
 
-.form-inner-cont input,
+.form-inner-cont input[type="text"]
 .form-inner-cont textarea {
   outline: none;
   width: 100%;

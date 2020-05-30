@@ -10,7 +10,7 @@ Author URL: http://w3layouts.com
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Pizza Pan a Restaurants Category Responsive Web Template | Menu : W3layouts</title>
+  <title>xyz pizza a Restaurants Category Responsive Web Template | Contact : W3layouts</title>
 
   <!-- Web-Fonts -->
   <link href="//fonts.googleapis.com/css?family=Spartan:400,500,600,700,900&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@ Author URL: http://w3layouts.com
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark stroke">
         <a class="navbar-brand" href="index.php">
-          <span class="fa fa-pie-chart"></span> Pizza pan
+          <span class="fa fa-pie-chart"></span> xyz
         </a>
         <!-- if logo is image enable this   
       <a class="navbar-brand" href="#index.php">
@@ -132,287 +132,48 @@ Author URL: http://w3layouts.com
     <div class="container">
         <ul class="breadcrumbs-custom-path">
             <li><a href="#url">Home</a></li>
-            <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Menu</li>
+            <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Login</li>
         </ul>
     </div>
 </section>
-<!-- menu -->
-	<div class="agileits-services  py-5" id="menu">
-		<div class="container py-md-5">
-            <div class="title-content text-center">
-                <h6 class="sub-title">Special Menu</h6>
-                <h3 class="title-big">Menu combo for you</h3>
-            </div>
-			<div class="pt-lg-5 pt-4">
-				<div class="row menu-body">
-					<!-- Section starts: Appetizers -->
-					<div class="col-lg-6 menu-section pr-lg-5">
-						<h3 class="menu-section-title">Pizzas</h3>
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Smoked Brisket Sandwich</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$19</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Pulled Chicken Sandwich</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$13</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>6 Piece Mozzarella Sticks</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$10</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Canada Dry Ginger Ale</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$8</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-					</div>
-					<!-- Section ends: Appetizers -->
-
-					<!-- Section starts: Appetizers -->
-					<div class="col-lg-6 menu-section pl-lg-5">
-						<h3 class="menu-section-title">Burgers</h3>
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Pulled Chicken Sandwich</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$23</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Mango Mania Smoothie</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$21</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Ocean Spray Cranberry Juice</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$13</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Pulled Chicken Sandwich</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$11</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-					</div>
-                    <!-- Section ends: Appetizers -->
-                    
-					<!-- Section starts: Drinks -->
-					<div class="col-lg-6 menu-section pr-lg-5">
-						<h3 class="menu-section-title">Chicken</h3>
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Smoked Brisket Sandwich</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$20</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Pulled Chicken Sandwich</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$50</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Canada Dry Ginger Ale</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$23</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Peanutty Blast Smoothie</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$50</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-					</div>
-					<!-- Section ends: Drinks -->
-
-					<!-- Section starts: Drinks -->
-					<div class="col-lg-6 menu-section pl-lg-5">
-						<h3 class="menu-section-title">Beverages</h3>
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Flavours</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$10</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Chocolate Fudge</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$10</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Caramel Sauce</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$15</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-						<!-- Item starts -->
-						<div class="menu-item">
-							<div class="row border-dot no-gutters">
-								<div class="col-8 menu-item-name">
-									<h6>Whipped Cream</h6>
-								</div>
-								<div class="col-4 menu-item-price text-right">
-									<h6>$18</h6>
-								</div>
-							</div>
-							<div class="menu-item-description">
-								<p>Pulled Pork, Beer Braised Brisket, & Quarter Rack of Ribs served with your choice of side</p>
-							</div>
-						</div>
-						<!-- Item ends -->
-					</div>
-					<!-- Section ends: Drinks -->
+<section class="w3l-contact-11 py-5">
+    <div class="contacts-main py-lg-5 py-md-4">
+      
+      <div class="form-41-mian section-gap mt-5">
+        <div class="container">
+          <div class="d-grid align-form-map">
+            <div class="form-inner-cont">
+              <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
+                <div class="form-input">
+                  <label for="w3lName">Name</label>
+                  <input type="text" name="w3lName" id="w3lName" placeholder="" />
+                </div>
+                <div class="form-input">
+                  <label for="w3lSender">Email(Required)*</label>
+                  <input type="email" name="w3lSender" id="w3lSender" placeholder="" required="" />
+                </div>
+                <div class="form-input">
+                  <label for="w3lMessage">Message(Required)*</label>
+                  <textarea placeholder="" name="w3lMessage" id="w3lMessage" required=""></textarea>
 				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //menu -->
+				<div class="form-input">
+				  <label for="w3lMessage">Gender(Required)*</label>
+				  <input type="radio"name="gender" value ="male"/>Male
+				  <input type="radio" name="gender" value="female" id= "female"/>Female
+				  <textarea placeholder="" name="w3lMessage" id="w3lMessage" required=""></textarea>
+				  
+				</div>
+			
+
+                <button type="submit" class="btn btn-style btn-primary">Submit</button>
+
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </section>
   <!-- footers 20 -->
   <section class="w3l-footers-20">
   	<div class="footers20">

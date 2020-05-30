@@ -57,6 +57,9 @@ Author URL: http://w3layouts.com
             <li class="px-4 fill-none">
               <a href="login.php" class="btn btn-style btn-secondary">login </a>
               </li>
+              <li class="px-4 fill-none">
+              <a href="registred.php" class="btn btn-style btn-secondary">Registred </a>
+              </li>
           </ul>
           <div class="popup">
             <a href="#domain" class="domain" data-toggle="modal" data-target="#DomainModal">

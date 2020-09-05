@@ -1,3 +1,24 @@
+<?php
+
+if(isset($_POST["submit"]) && $_POST["submit"]=="LOGIN")
+{
+   
+if($_POST["username"]=="krutikaambarte23@gmail.com" && $_POST["password"]=="123456")
+{
+
+    
+    header('Location: registred.php');
+}
+else
+{
+    echo "invalid username & password ";
+}
+}else{
+
+    echo "errer";
+}
+?>
+
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -143,24 +164,23 @@ Author URL: http://w3layouts.com
         <div class="container">
           <div class="d-grid align-form-map">
             <div class="form-inner-cont">
-              <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
-                <div class="form-input">
-                  <label for="w3lName">Name</label>
-                  <input type="text" name="w3lName" id="w3lName" placeholder="" />
-                </div>
+              <form action="" method="post" class="signin-form">
+            
+		    
                 <div class="form-input">
                   <label for="w3lSender">Email(Required)*</label>
                   <input type="email" name="w3lSender" id="w3lSender" placeholder="" required="" />
                 </div>
                 <div class="form-input">
-                  <label for="w3lMessage">Message(Required)*</label>
-                  <textarea placeholder="" name="w3lMessage" id="w3lMessage" required=""></textarea>
-                </div>
+                  <label for="w3lMessage">Password(Required)*</label>
+                  <input type="password"  placeholder="" name="w3lMessage" id="w3lMessage" required=""></textarea>
+                </div><br><br>
 
-                <button type="submit" class="btn btn-style btn-primary">Submit</button>
+                <button type="submit" name="submit" value="LOGIN" class="btn btn-style btn-primary">Submit</button>
 
               </form>
             </div>
+			
             
           </div>
         </div>

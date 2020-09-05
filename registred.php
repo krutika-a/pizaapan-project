@@ -143,31 +143,95 @@ Author URL: http://w3layouts.com
         <div class="container">
           <div class="d-grid align-form-map">
             <div class="form-inner-cont">
-              <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
-                <div class="form-input">
-                  <label for="w3lName">Name</label>
-                  <input type="text" name="w3lName" id="w3lName" placeholder="" />
-                </div>
-                <div class="form-input">
-                  <label for="w3lSender">Email(Required)*</label>
-                  <input type="email" name="w3lSender" id="w3lSender" placeholder="" required="" />
-                </div>
-                <div class="form-input">
-                  <label for="w3lMessage">Message(Required)*</label>
-                  <textarea placeholder="" name="w3lMessage" id="w3lMessage" required=""></textarea>
-				</div>
-				<div class="form-input">
-				  <label for="w3lMessage">Gender(Required)*</label>
-				  <input type="radio"name="gender" value ="male"/>Male
-				  <input type="radio" name="gender" value="female" id= "female"/>Female
-				  <textarea placeholder="" name="w3lMessage" id="w3lMessage" required=""></textarea>
+              <form action="" method="post" class="signin-form">
+                
+                  <label for="Firstname">First name</label>
+				<input type="text" style="width:200px" name="firstname"  placeholder="first_name" required=""/>
 				  
-				</div>
+				  <label for="Lastname">Last name</label>
+				  <input typr="text" style="width:200px" name="lastname"  placeholder="last_name" required="" />
+               
+               
+                  <label for="email">Email</label>
+                  <input type="email" name="email"  placeholder="E-mail" required="" />
+					<br><br>
+					<label for="password">Password(Required)*</label>
+				<input type="password" name="password"/><br><br>
 			
+                
+                  <label for="phone-no">contact-Number(Required)*
+				  <br> <input type="text" name="contact" maxlength="20" style="width:250px">
+				  
+				  </label>
+                  <!--<<textarea placeholder="" name="w3lMessage" id="w3lMessage" required=""></textarea>-->
+				  				
+<br>			
+				<lable for="address">Address</lable><br>
+				<input typ="text" placeholder="" name="address"  required=""/>
+<br><br>
+				Gender:
+				  <input type="radio"name="gender" value ="male" name= "male"/>Male
+				  <input type="radio" name="gender" value="female" name= "female"/>Female<br><br>
+<br>
 
-                <button type="submit" class="btn btn-style btn-primary">Submit</button>
+				  Hobbies:
+				  Cricket<input type="checkbox" name="hobbies[]" value="cricket"> 
+				  Singing<input type="checkbox" name="hobbies[]"value="singing" > 
+				  Dancing<input type="checkbox" name="hobbies[]" value="dancing"> 
+				  others<input type="text" name="hobbies[]"  style=width:200px ><br><br>
+
+				  City(Required)*-<select name="city">
+				  <option value="nagpur">Nagpur</option>
+				  <option value="mumbai">Mumbai</option>
+				  <option value="delhi">Delhi</option>
+				  </select><br><br>
+
+				  <lable>Upload file</lable><br>
+				  <input type="file">
+			 
+                <button type="submit" name="submit" class="btn btn-style btn-primary">Submit</button>
 
               </form>
+			  
+			  
+	<?php
+	  error_reporting(0);
+       print_r($_POST);
+
+	$con=mysqli_connect("localhost","krutika","K.a.1195","registration_page");
+	
+	if(!$con)
+	{
+		echo "DB NOT CONNCETD";
+	echo mysqli_connect_error($con);
+
+	}	
+		else
+	{
+		echo "DB  CONNCETD";
+	}
+
+	$hobbies=implode(",",$_POST["hobbies"]);
+
+    echo $insertquery="INSERT INTO information (firstname,lastname,email,password,contact,address,gender,hobbies,city) values ('".$_POST['firstname']."','".$_POST['lastname']."',
+                       '".$_POST['email']."','".$_POST['password']."','".$_POST['contact']."','".$_POST['address']."','".$_POST['gender']."','"."$hobbies"."','".$_POST['city']."')";
+
+echo "<br>";
+
+echo $res=mysqli_query($con,$insertquery);
+if (!res)
+{
+	echo "Data not inserted";
+	echo mysqli_error($con);
+}
+else{
+    echo "Data inserted";
+}
+
+			  
+			  	?>
+
+
             </div>
             
           </div>
@@ -410,3 +474,5 @@ Author URL: http://w3layouts.com
   </body>
 
   </html>
+  
+  
